@@ -3,7 +3,12 @@ thee basic bash-based cron-job for watchdog-user / root for detect most CPU-inte
 
 # install steps
 
-* git clone https://github.com/vipup/evil-process-watchdog-killer/
+* adduser watchdoguser
+...
+* su watchdoguser
+* #$watchdoguser# git clone https://github.com/vipup/evil-process-watchdog-killer/
+..
+* #$watchdoguser# cd evil-process-watchdog-killer
 * #$watchdoguser# crontab -e <<  watchdoguser.crontab
 ..
 * #$root# crontab -e <<  root.crontab
