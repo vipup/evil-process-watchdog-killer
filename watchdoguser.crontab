@@ -1,2 +1,3 @@
-* * * * *  ~/evil-process-watchdog-killer/watchdog.sh
-* * * * *  ~/evil-process-watchdog-killer/top1.sh
+* * * * *  ~/evil-process-watchdog-killer/watchdog.sh >/dev/null 2>&1
+* * * * *  ~/evil-process-watchdog-killer/top1.sh >/dev/null 2>&1
+

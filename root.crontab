@@ -1,1 +1,1 @@
-* * * * * /home/watchdoguser/evil-process-watchdog-killer/killevils.sh
+* * * * * /home/watchdoguser/evil-process-watchdog-killer/killevils.sh > /dev/null
